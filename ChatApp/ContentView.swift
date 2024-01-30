@@ -22,7 +22,7 @@ struct ContentView: View {
                             }
                         }
                         .padding(.top, 10)
-                        .background(.white)
+                        .background(.gray)
                         .cornerRadius(30, corners: [.topLeft, .topRight])
                         .onChange(of:
                                     messageManager.lastMessageId) { id in
